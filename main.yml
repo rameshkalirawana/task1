@@ -1,7 +1,7 @@
 --- 
 - 
 - name: Elasticsearch with SSL/TLS enabled
-  hosts: localhost
+  hosts: master_node
   roles:
     - role: elastic.elasticsearch
   vars:
